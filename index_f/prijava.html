@@ -1,0 +1,99 @@
+<html>
+	<head>
+		<title>
+			Registracija
+			</title>
+			<link rel="stylesheet" href="../style/style1.css" type="text/css">
+			<meta charset="UTF-8"> 
+	</head>
+	
+	<body>
+		<div id="prijava_telo">
+			<form action="index.php" method="post">
+				<p>
+				<label for="Username">Username</label>
+				<input type="text" id="Username" required minlength="3" maxlength="10" placeholder="Username">
+				</p>
+				
+				<p>
+				<label for="password">Password</label>
+				<input type="password" id="password" required minlength="6" maxlength="10" placeholder="Password">
+				</p>
+				
+				<p>
+					<label for="email adresa">Email adresa</label>
+					<input type="email" id="email adresa" required placeholder="@gmail.com">
+				</p>
+				
+				<p>
+				<label for="Telefon">Telefon</label>
+				<input type="tel" id="Telefon" placeholder="+381" pattern="[0-9]{10}"> 
+				</p>
+				
+				<p>
+					<label for="Datum rodjenja">Datum rodjenja</label>
+					<input type="Date" id="Datum rodjenja">
+				</p>
+				
+				<p>
+					<label for="Klicina">kolicina</label>
+					<input type="number" id="kolicina" min="0" max=10 value=1>
+				</p>
+				
+				<p>
+					<label>POL</label>
+					<label>muski</label>
+					<input type="radio" id="muski" name="pol">
+					<label>zenski<label>
+					<input type="radio" id="zenski" name="pol">
+					<label>ONO<label>
+					<input type="radio" id="one" name="pol">
+				</p>
+				
+				<p>
+					<label for="placanje">placanje</label>
+					<select id="placanje">
+						<option value="viya">Viza</option>
+						<option value="mastercard">Mastercard</option>
+						<option value="kes">KES</option>
+					</select>
+				</p>
+				
+				<p>
+					<label for="subscribe">subscribe</label>
+					<input type="checkbox"id="subscribe">
+				</p>
+				
+				<p>
+					<label for="komentar">komentar</label>
+					<textarea id="komentar" rows="3" cols="50"></textarea>
+						
+				</p>
+				
+				<p>
+					<label for="fajl">Fajl</label>
+					<input type="file" id="fajl">
+				
+				</p>
+				
+				
+				
+				
+				<input type="submit">
+				<input type="reset">
+			
+			
+			</form>
+		</div>
+	
+	
+	
+	
+	
+	
+	
+	
+		
+	</body>
+
+</html>

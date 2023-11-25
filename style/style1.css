@@ -1,0 +1,533 @@
+*{
+	margin: auto; /*spoljasnje raspojanje od suseda*/
+	padding: 0px; /*unutrasnje raspojanje od ivice*/
+}
+#body{
+font-family: Arial;
+}
+#r4{
+	width:1920px;
+	height:800px; 
+	/*background:grey;*/
+}
+#r2{
+	width:1920px;
+	height:85px;
+	/*background:red;*/
+	text-align:center;
+	font-size:40px;
+}
+#main1{
+	width:1920px;
+	height:50px;
+	border-top: 2px solid #dfe3dc;
+	border-bottom: 2px solid #dfe3dc;
+	
+	/*background:gray;*/	
+}
+#meni li{
+	text-decoration: none;
+	float: left;
+	padding: 15px 100px;
+	color: #2f8be0;
+	list-style-type:none;
+	font-size: 16px;
+	
+}
+#meni a{
+	text-decoration: none;
+}
+
+#r1{
+	width:1920px;
+	height:580px;
+	/*background:black;*/
+}	
+#footer {
+	font-family: 'Kanit', sans-serif;
+	font-size: 14px;
+	width:1920px;
+	height:100px;
+	background:#dfe3dc;
+}
+.footer_div{
+	width:150px;
+	height:85px;
+	margin-left: 367px;
+	color: #2f8be0;
+	float:left;
+	padding: 5px;
+  
+}
+.footer_div span{
+	margin-left: 45px;
+	font-size:50px;
+}
+.footer_div p{
+	text-align: center;
+}
+
+#logo{
+	width:152px;
+	height:85px;
+	/*background:grey;*/
+	float:left;
+}
+#ikonice{
+	font-family: 'Kanit', sans-serif;
+	width:125px;
+	height:85px;
+	color: #2f8be0;
+	float:left;
+	font-size:18px;
+}
+#ikonice how_to_reg{
+	width:150px;
+	height:120px;
+	margin-left: 367px;
+	color: #2f8be0;
+	float:left;
+	
+}
+#ikonice span{
+	font-size:50px;
+}
+
+#v2{
+	width:400px;
+	height:580px;
+	/*background:grey;*/
+	float:left;
+}
+
+#v1{
+	width:1110px;
+	height:580px;
+	/* background:#2e48b0; */
+	float:left;
+	/* margin:0px; */
+	/* padding:0px; */
+	border-left:2px solid #dfe3dc;
+	border-right:2px solid #dfe3dc;
+	border-bottom:2px solid #dfe3dc;
+
+}
+#v3{
+	width:400px;
+	height:580px;
+	/* background:#637357; */
+	float:left;
+	border-bottom:2px solid #dfe3dc;
+}
+#naslov{
+	width:1635px;
+	height:85px;
+	/*background-color:red;*/
+	float:left;
+	color:#2f8be0;
+	font-size:30px;
+	text-align:center;
+}
+.k1 {
+	width:400px;
+	height:264px;
+	float:left;
+	border-bottom:2px solid #dfe3dc;
+	
+}
+.k1 p{
+	padding:15px;
+}
+.k1 ul{
+	list-style-type:none;
+	padding-left:15px;
+}
+#o_nama_telo{
+	/*background-color: green;*/
+    width: 1920px;
+    height: 650;
+	margin: auto; 
+}
+.h3_naslovi{
+	text-align: center;
+}
+#o_nama_levo{
+	/*background-color: red;*/
+    width: 635px;
+    height: 650px;
+	float:left;
+	
+}
+#p1{
+	font-size:16px;
+	text-align: justify;
+	padding:15px;
+	
+}
+#img10 {
+	width:350px;
+	height:170px; 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-top:5px solid grey;
+	border-left:5px solid grey;
+	border-right:5px solid grey;
+	border-bottom:25px solid grey;
+	
+}	
+#o_nama_centar{
+	
+    width: 635px;
+    height: 650;
+	float:left;
+	border-left:2px solid #dfe3dc;
+	
+	
+}
+
+#img13 {
+	width:350px;
+	height:190px; 
+	/* display: block; */
+	margin-top: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+	border-top:5px solid grey;
+	border-left:5px solid grey;
+	border-right:5px solid grey;
+	border-bottom:25px solid grey;	
+	float:left;
+}
+#p2{
+	font-size:16px;
+	margin-top: 10px;
+	margin-left: 15px 15px;
+	padding:15px;
+	text-align: left;
+	
+	
+}
+#o_nama_desno{
+	/*background-color: blue;*/
+    width: 635px;
+    height: 650px;
+	float:left;
+	border-left:2px solid #dfe3dc;
+}
+#o_nama_desno p{
+	text-align:justify;
+	padding: 15px 0px 0px 15px;
+}
+#o_nama_footer {
+	width:1920px;
+	height:85px;
+	background:grey;
+	float: left;	
+}
+#ul1{
+	padding-left:40px;
+	padding-top:20px;
+	padding-bottom:20px;
+	list-style-type:none;
+	font-size:20px;
+	
+	
+}
+
+#img3{
+	width:370px;
+	height:220px;
+	padding:15px;
+}
+.v3_1{
+	width:400px;
+	height:50px;
+	background-color:#dfe3dc;
+	text-align:center;
+	color:#2f8be0;
+	
+	
+	
+}
+.v3_2{
+	border-bottom:2px solid #dfe3dc;
+	padding:15px;
+	
+}
+#img15{
+	width:200px;
+	border-top:5px solid grey;
+	border-left:5px solid grey;
+	border-right:5px solid grey;
+	border-bottom:25px solid grey;
+	float:right;
+	margin-top: 10px;
+	margin-left: 15px;
+	margin-right: 15px
+}
+
+#galerija_telo{
+	width:1700px;
+	height:700px;
+	/* background-color:grey; */
+	
+}
+#galerija_h1{
+	text-align:center;
+	color:#2f8be0;
+	margin:10px;
+}
+.galerija_telo_sekcije{
+	width:560px;
+	height:650px;
+	/* background-color:green; */
+	/* border:2px solid red; */
+	float:left;
+}
+.galerija_telo_sekcije h3{
+	color:#2f8be0;
+	text-align:center;
+	
+}
+.galerija img{
+	width:200px;
+	padding:15px;
+	filter:grayscale(100%);
+	transition: 1s;
+}
+.galerija img:hover{
+		filter:grayscale(0%);
+		transform: scale(1.1);
+}
+
+#razvoj_telo{
+	width:1920px;
+	height:700px;
+	background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('../img/img17.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+	
+	
+}
+#razvoj_telo_text{
+	font-size: 18px;
+	width: 450px;
+	text-align: center;
+	padding-top: 15%;
+	height: 150px;
+	margin-left: 40%;
+	color: #2f8be0;
+}
+#razvoj_telo_text p{
+	color: #fff;
+}
+
+#razvoj_telo_text button{
+	width: 200px;
+	padding: 15px 0px;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 25px;
+	font-weight: bold;
+	border: 2px solid #2f8be0;
+	background: transparent;
+	color: #2f8be0;
+	cursor: pointer;
+}
+#karijera_telo{
+	width: 1700px;
+	height: 680px;
+	background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../img1/img19.jpg);
+	/* background-color: red; */
+	color:#fff;
+}
+#karijera_telo p{
+	text-align: center;
+	margin: 25px;
+}
+#uvod{
+	width: 800px;
+    height: 70px;
+    padding: 5px;
+    /* background-color: aqua; */
+	font-size: 20px;
+	text-align: center;
+	font-style: italic;
+}
+.oglasi{
+	width: 566px;
+	height: 600px;
+	color:#fff;
+	/* background-color: rgb(85, 74, 74); */
+	float: left;
+	border-top: 2px solid #dfe3dc;
+	
+}
+#karijera_telo h4{
+	text-align: center;
+	padding: 5px;
+}
+#karijera_telo ul{
+	padding: 15px;
+	margin-left: 25px;
+}
+#karijera_telo h5{
+	text-align: center;
+}
+.Karijera_buttom{
+	width: 125px;
+    padding: 15px 0px;
+    text-align: center;
+    margin: -7px 178px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #2f8be0;
+    background: transparent;
+    color: #2f8be0;
+    cursor: pointer;
+}
+#inz_telo{
+	width: 1920px;
+	height: 600px;
+	text-align: center;
+	/* background: grey; */
+}
+#myCanvas{
+	margin: 100 0 0 50px;
+}
+#inz_telo h1{
+	color: #2f8be0;
+	font-size: 55px;
+}
+#tp_telo{
+	width: 1920px;
+	height: 700px;
+	background-color: bisque;
+	background-image: url(../img1/img20.jpg);
+}
+
+#prijava_telo{
+	width: 500px;
+    height: 550px;
+    background-color: gray;
+	margin-top: 55px;
+}
+#prijava_telo p{
+	padding: 5px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slider {
+        width: 1080px;
+        height: 550px;
+        /* background-color: yellow; */
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        text-align: center;
+        overflow: hidden;
+      }
+.image-container {
+        width: 3240px;
+        background-color: pink;
+        height: 500px;
+        clear: both;
+        position: relative;
+        -webkit-transition: left 2s;
+        -moz-transition: left 2s;
+        -o-transition: left 2s;
+        transition: left 2s;
+      }
+.slide {
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+      }
+#slide-1:target ~ .image-container {
+        left: 0px;
+      }
+#slide-2:target ~ .image-container {
+        left: -1080px;
+      }
+#slide-3:target ~ .image-container {
+        left: -2160px;
+      }
+.buttons {
+        position: relative;
+        top: 22px;
+      }
+.buttons a {
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        border-radius: 50px;
+        background-color: #2f8be0;}
+
+
